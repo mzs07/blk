@@ -1,0 +1,114 @@
+
+.header1 {
+	height: 10vh;
+	width: 70%;
+	float: left;
+	background-color: purple;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.header2 {
+	height: 10vh;
+	width : 30%;
+	float: right;
+	background-color: purple;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.logo {
+	float: right;
+	position: relative;
+	top: 20%;
+	right: 5%;
+}
+
+.head {
+	position: absolute;
+	color: white;
+	text-align: center;
+	left: 40%;
+}
+
+.wel {
+	color: red;
+}
+
+.display,.owner{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+.end {
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+img {
+	left : 50%;
+	width : 500px;
+	height : 500px;
+	min-width: 300px;
+	min-height: 300px;
+	margin-bottom: 20px;
+}
+
+/* 
+#itembtn {
+	width: 200px;
+	right: 52%;
+	top: 70px;
+} */
+textarea {
+	text-align: center;
+}
+
+.edit {
+	width: 250px;
+}
+
+.sbar {
+	width: 500px
+}
+
+
+.search{
+	margin-top: 40vh;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+.submit {
+	margin-left : 7px;
+}
+ 
+.msgrequest {
+	position: absolute;
+	top:90%;
+	height: 10vh;
+	display: block;
+	text-align: center;
+	width : 100%;
+}
+
+.mq {
+	display: block;
+	width : 34%
+}
+
+.req { 
+	border-width: 2px;
+	border-style: solid;
+	border-color: lightgrey;
+	margin-top: 25px;
+	margin-bottom: 7px;
+	padding : 7px;
+}
+

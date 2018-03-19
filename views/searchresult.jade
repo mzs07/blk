@@ -1,0 +1,16 @@
+extends layoutsearchresult
+
+block content
+	.header1
+		.head
+			h3 Search Results
+
+	.header2
+		button.logo.btn.btn-success Log Out
+	
+	.search
+		input.sbar(type = 'text', placeholder = 'Search...')
+		button.btn.btn-default.submit Search
+	.result
+	.end
+		h2(hidden='true') #{query}

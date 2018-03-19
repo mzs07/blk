@@ -1,0 +1,22 @@
+db.userlist.insert([
+{
+	'user' : 'mzs07',
+	'pwd' : '565678910'
+},
+{
+	'user' : 'captainjack',
+	'pwd' : 'blackpearl'	
+},
+{
+	'user' : 'TemplarAssassin',
+	'pwd' : 'fatherofunderstanding'
+},
+{
+	'user' : 'samwell',
+	'pwd' : 'frodofrnd'
+}
+])
+
+user : bastardking
+
+pass : swordinthedarkness

@@ -1,0 +1,14 @@
+#header {
+	text-align: center;
+	background-color: orange;	
+}
+
+.errorbox {
+	border : 2px;
+	border-color: red;
+	border-style: solid;
+}
+
+.small {
+	float: right;
+}

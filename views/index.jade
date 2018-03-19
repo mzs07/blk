@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	#group
+		h2 WELCOME
+		p This is a simple Implementation of a great new idea that could bring <br> comfort to a lot of people. Explore it as you will.
+		.row
+			.col-md-2
+				button.btn.btn-primary.btn-lg#logbtn Log in
+			.col-md-3.login
+				input#uid(type='textbox', placeholder='User Name',)
+			.col-md-3.login
+				input#pwd(type='password', placeholder='Password')
+			.col-md-3.login
+				p.errm.text-danger.small 
+		
+		p.small If you don't have an account you can <a href = '/signup'>Sign up </a> here.

@@ -1,0 +1,81 @@
+
+.header1 {
+	height: 10vh;
+	width: 70%;
+	float: left;
+	background-color: purple;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.header2 {
+	height: 10vh;
+	width : 30%;
+	float: right;
+	background-color: purple;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+button {
+	float: right;
+	position: relative;
+	top: 20%;
+	right: 5%;
+}
+
+.borrow {
+	height : 90vh;
+	width: 50%;
+	float: left;
+	background-color: cyan;
+}
+
+.lend {
+	height: 90vh;
+	width: 50%;
+	float: right;
+	background-color: orange;
+}
+
+.overlay {
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+	cursor :hand ;
+	cursor: pointer;
+}
+
+.txt {
+	color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+
+.borrow:hover .overlay{
+	opacity: 0.7;
+}
+
+.lend:hover .overlay{
+	opacity: 0.7;
+}
+
+.head {
+	position: absolute;
+	color: white;
+	text-align: center;
+	left: 45%;
+}
+
+.wel {
+	color: red;
+}
