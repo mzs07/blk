@@ -9,4 +9,14 @@ jade
 CSS
 Bootstrap
 
-A database has already been implemented and can be found in /data folder
+Instructions - 
+
+-> Install npm 
+
+-> Open the project directory in terminal and run 'npm install' to install all dependencies
+
+-> Create a MongoDB database named 'userdata' and keep it running
+
+-> Run 'npm start'
+
+-> Go to 'localhost:3000' in your browser to start
