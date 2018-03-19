@@ -1,0 +1,26 @@
+db.userinfo.insert([
+{
+	'user' : 'mzs07',
+	'fname' : 'Mehboob',
+	'lname' : 'Ali',
+	'karma' : 500
+},
+{
+	'user' : 'captainjack',
+	'fname' : 'Jack',
+	'lname' : 'Sparrow',
+	'karma' : 500
+},
+{
+	'user' : 'TemplarAssassin',
+	'fname' : 'Haytham',
+	'lname' : 'Kenway',
+	'karma' : 500
+},
+{
+	'user' : 'samwell',
+	'fname' : 'Samwell',
+	'lname' : 'Gamgee',
+	'karma' : 500
+}
+])

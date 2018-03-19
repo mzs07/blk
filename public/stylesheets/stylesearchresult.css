@@ -1,0 +1,79 @@
+
+.logo {
+	float: right;
+	position: relative;
+	top: 20%;
+	right: 5%;
+}
+
+.header1 {
+	height: 10vh;
+	width: 70%;
+	float: left;
+	background-color: purple;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.header2 {
+	height: 10vh;
+	width : 30%;
+	float: right;
+	background-color: purple;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+button {
+	float: right;
+	position: relative;
+	top: 20%;
+	right: 5%;
+}
+
+.head {
+	position: absolute;
+	color: white;
+	text-align: center;
+	left: 40%;
+}
+
+.wel {
+	color: red;
+}
+
+.result {
+	width: 100%;
+	float: left;
+}
+
+.prods {
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 1%; 
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 2px;
+}
+
+img {
+	width : 300px;
+	height : 300px;
+	min-width: 300px;
+	min-height: 300px;
+}
+
+.search{
+	margin-top: 7px;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+.sbar {
+	width: 500px
+}
+
+.submit {
+	float: right;
+}

@@ -1,0 +1,30 @@
+extends layoutproduct
+
+block content
+	.header1
+		.head
+			h3 Add Product
+			p.wel Fill the form and press submit to submit.
+
+		form.form-horizontal(action = '/product/addprod', method='POST', enctype='multipart/form-data')
+			.form-group
+				label.control-label.col-sm-3(for = 'prodtitle') Product Title :
+				input.col-sm-5.fname(type = 'text', name = 'prodtitle' required) 
+				p.small.text-danger.col-sm-3#pt
+			.form-group
+				label.control-label.col-sm-3(for = 'proddesc') Product Description :
+				input.col-sm-5.lname(type = 'textbox', name = 'proddesc' required)
+				p.small.text-danger.col-sm-3#pd
+			.form-group
+				label.control-label.col-sm-3(for = 'prodimage') Image :        
+				input.col-sm-5.uname(type = 'file', name = 'prodimage' required)
+				p.small.text-danger.col-sm-3#pi
+			.form-group
+				label.control-label.col-sm-3(for = 'karma') Karma :
+				input.col-sm-5.cpass(type = 'number', name = 'karma' required)
+				p.small.text-danger.col-sm-3#pk
+			
+			.form-group
+				button.btn.btn-primary.btn-lg.offset-sm-2.col-sm-4(type ='submit') Submit
+
+		

@@ -1,0 +1,35 @@
+extends layoutsu
+
+block content
+	#group
+		#header
+			h1 SIGN UP Form
+			p Fill the form and press submit to submit.
+
+		form.form-horizontal(action = '/signup/addaccount', method='POST')
+			.form-group
+				label.control-label.col-sm-3(for = 'fname') First name :		
+				input.col-sm-5.fname(type = 'text', name = 'fname' required) 
+				p.small.text-danger.col-sm-3#fn 
+			.form-group
+				label.control-label.col-sm-3(for = 'lname') Last name :
+				input.col-sm-5.lname(type = 'text', name = 'lname' required)
+				p.small.text-danger.col-sm-3#ln
+			.form-group
+				label.control-label.col-sm-3(for = 'uname') Username :          
+				input.col-sm-5.uname(type = 'text', name = 'uname' required)
+				p.small.text-danger.col-sm-3#un
+			.form-group
+				label.control-label.col-sm-3(for = 'pass') Password :          
+				input.col-sm-5.pass(type = 'password', name = 'pass' required)
+				p.small.text-danger.col-sm-3#pa
+			.form-group
+				label.control-label.col-sm-3(for = 'cpass') Confirm Password :  
+				input.col-sm-5.cpass(type = 'password', name = 'cpass' required)
+				p.small.text-danger.col-sm-3#cp
+			.form-group
+				label.control-label.col-sm-3(for = 'phone') Phone Number :  
+				input.col-sm-5.phone(type = 'number', name = 'phone' required)
+				p.small.text-danger.col-sm-3#ph
+			.form-group
+				button.btn.btn-primary.btn-lg.offset-sm-2.col-sm-4(type ='submit') Submit

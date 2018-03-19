@@ -1,0 +1,119 @@
+
+.header1 {
+	height: 10vh;
+	width: 70%;
+	float: left;
+	background-color: purple;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.header2 {
+	height: 10vh;
+	width : 30%;
+	float: right;
+	background-color: purple;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+button {
+	float: right;
+	position: relative;
+	top: 20%;
+	right: 5%;
+}
+
+.add {
+	float: left;
+	height : 30vh;
+	width: 100%;
+	background-color: grey;
+}
+
+.manage {
+	height: 30vh;
+	width: 100%;
+	float: left;
+	background-color: orange;
+}
+
+.msgreq {
+	height: 30vh;
+	width: 100%;
+	float: left;
+	background-color: pink;
+}
+
+.overlay {
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+	cursor : hand;
+	cursor : pointer;
+}
+
+.txt {
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
+
+.add:hover .overlay{
+	opacity: 0.7;
+}
+
+.manage:hover .overlay{
+	opacity: 0.7;
+}
+
+.msgreq:hover .overlay{
+	opacity: 0.7;
+}
+
+.head {
+	position: absolute;
+	color: white;
+	text-align: center;
+	left: 40%;
+}
+
+.wel {
+	color: red;
+}
+
+.display {
+	width: 100%;
+	float: left;
+}
+
+.prods {
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 1%; 
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 2px;
+}
+
+img {
+	width : 300px;
+	height : 300px;
+	min-width: 300px;
+	min-height: 300px;
+}
+
+.itembtn {
+	width: 200px;
+	right: 52%;
+	top: 70px;
+}
